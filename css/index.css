@@ -9,7 +9,7 @@ body {
 
 
 
-.visuallyhidden {
+.visuallyHidden {
     margin: 0;
     padding: 0;
     width: 1px;
@@ -25,3 +25,22 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+svg {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.str0 {stroke:white;stroke-width:76.36;stroke-miterlimit:22.9256}
+    .fil0 {fill:#EEEEEE}
+
+
+
+    #grodno {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+    }
