@@ -1,13 +1,12 @@
 body {
-    font: 20px/1.4, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.4;
     color: #8c8f94;
-
     background-color: #fff;
 }
-
-
-
-
 
 .visuallyHidden {
     margin: 0;
@@ -16,7 +15,6 @@ body {
     height: 1px;
     overflow: hidden;
     visibility: hidden;
-
 }
 
 .container {
@@ -26,21 +24,62 @@ body {
     padding: 0 15px;
 }
 
-svg {
-    background-color: aqua;
+main {
     width: 100vw;
     height: 100vh;
 }
 
 
+.str0 {
+    stroke: white;
+    stroke-width: 76.36;
+    stroke-miterlimit: 22.9256;
+    fill: green;
+}
 
-.str0 {stroke:white;stroke-width:76.36;stroke-miterlimit:22.9256}
-    .fil0 {fill:#EEEEEE}
+.str0:hover {
+    fill: greenyellow;
+}
+
+.fil0 {
+    fill: rgb(92, 194, 92);
+    transition: .5s;
+
+}
+
+.fil0:hover {
+    fill: red;
+}
+
+.grodno:hover {
+    fill: violet;
+}
+
+.vitebsk:hover {
+    fill: rgb(243, 71, 143);
+}
+
+.mogilev:hover {
+    fill: aqua;
+}
+
+.gomel:hover {
+    fill: red;
+}
+
+.minskaia:hover {
+    fill: rgb(255, 174, 0);
+}
+
+
+.brest:hover {
+    fill: yellow;
+}
+
+.circle:hover  .str0 {
+    fill: orangered;
+}
 
 
 
-    #grodno {
-        width: 300px;
-        height: 300px;
-        background-color: red;
-    }
+
