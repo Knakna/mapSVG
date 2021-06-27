@@ -17,14 +17,11 @@ body {
     visibility: hidden;
 }
 
-.container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100vw;
     height: 100vh;
 }
@@ -35,6 +32,7 @@ main {
     stroke-width: 76.36;
     stroke-miterlimit: 22.9256;
     fill: green;
+    transition: .5s;
 }
 
 .str0:hover {
@@ -44,11 +42,6 @@ main {
 .fil0 {
     fill: rgb(92, 194, 92);
     transition: .5s;
-
-}
-
-.fil0:hover {
-    fill: red;
 }
 
 .grodno:hover {
@@ -71,13 +64,8 @@ main {
     fill: rgb(255, 174, 0);
 }
 
-
 .brest:hover {
     fill: yellow;
-}
-
-.circle:hover  .str0 {
-    fill: orangered;
 }
 
 
